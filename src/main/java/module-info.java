@@ -12,4 +12,10 @@ module com.example.javafxdemo {
 
     opens com.example.javafxdemo to javafx.fxml;
     exports com.example.javafxdemo;
+    exports com.example.javafxdemo.controller.login;
+    opens com.example.javafxdemo.controller.login to javafx.fxml;
+    exports com.example.javafxdemo.controller.user;
+    opens com.example.javafxdemo.controller.user to javafx.fxml;
+    opens com.example.javafxdemo.controller to javafx.fxml;
+    exports com.example.javafxdemo.controller;
 }
