@@ -1,0 +1,2 @@
+JAVA_VERSION="15.0.2"
+MODULES="java.base java.datatransfer java.xml java.prefs java.desktop javafx.base jdk.unsupported javafx.graphics javafx.controls com.dlsc.formsfx java.logging java.transaction.xa java.sql com.google.gson java.net.http javafx.media jdk.jsobject jdk.xml.dom javafx.web eu.hansolo.tilesfx java.scripting javafx.fxml org.controlsfx.controls org.kordamp.bootstrapfx.core org.kordamp.ikonli.core org.kordamp.ikonli.javafx com.example.javafxdemo"

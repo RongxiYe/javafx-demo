@@ -5,11 +5,11 @@ module com.example.javafxdemo {
 
     requires org.controlsfx.controls;
     requires com.dlsc.formsfx;
-    requires validatorfx;
+//    requires validatorfx;
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
-    requires gson;
+    requires com.google.gson;
     requires java.sql;
 
     opens com.example.javafxdemo to javafx.fxml;
@@ -26,5 +26,5 @@ module com.example.javafxdemo {
 
     exports com.example.javafxdemo.data;
 
-    opens com.example.javafxdemo.data to gson;
+    opens com.example.javafxdemo.data to com.google.gsongson;
 }
