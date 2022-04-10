@@ -15,7 +15,7 @@ public class HelloApplication extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("main.fxml"));
         AnchorPane root = fxmlLoader.load();
         MainController main = fxmlLoader.getController();
-        main.init();
+        main.init(fxmlLoader);
         Scene scene = new Scene(root, 900, 600);
         stage.setTitle("Hello!");
         stage.setScene(scene);
